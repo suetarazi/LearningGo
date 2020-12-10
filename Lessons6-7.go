@@ -13,4 +13,14 @@ func main() {
 	answer := num1 / float64(num2)
 	fmt.Printf("%d", answer)
 
+	conditions_and_booleans()
+}
+
+//conditions & boolean expressions
+func conditions_and_booleans() {
+	x := "sue"
+	y := "Sue"
+	val := x == y
+	fmt.Printf("%t", val) //will compare the two strings and return 'false' because sue != Sue
+
 }
