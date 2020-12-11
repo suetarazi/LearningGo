@@ -14,6 +14,7 @@ func main() {
 	fmt.Printf("%d", answer)
 
 	conditions_and_booleans()
+	chained_conditionals()
 }
 
 //conditions & boolean expressions
@@ -23,4 +24,13 @@ func conditions_and_booleans() {
 	val := x == y
 	fmt.Printf("%t", val) //will compare the two strings and return 'false' because sue != Sue
 
+}
+
+func chained_conditionals() {
+	//! = not
+	//|| = or
+	//&& = and
+
+	val := (true || false) && true
+	fmt.Printf("%t", val)
 }
